@@ -50,7 +50,7 @@ def load_all_databases_bg():
     print("[SYSTEM] Smart Background Database Sync Started...", flush=True)
     BASE_GITHUB_URL = "https://raw.githubusercontent.com/shivamg1110/tg-database/main/Telegram_27_part{}.json"
     
-    for i in range(1, 51):
+    for i in range(1, 111):
         url = BASE_GITHUB_URL.format(i)
         try:
             response = requests.get(url, timeout=10)
